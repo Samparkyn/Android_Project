@@ -28,6 +28,10 @@
         <activity android:name="com.samparkyn.zootycoon.ChooseEnclosureDetails"
             android:label="Choose Enclosure"
             android:parentActivityName="com.samparkyn.zootycoon.BuyAnimalDetails"></activity>
+
+        <activity android:name="com.samparkyn.zootycoon.EndDayScreen"
+            android:label="End Day"
+            android:parentActivityName="com.samparkyn.zootycoon.MainActivity"></activity>
     </application>
 
 </manifest>

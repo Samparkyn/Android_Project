@@ -5,5 +5,5 @@ package com.samparkyn.zootycoon;
  */
 public interface IRampage {
 
-    public void engage();
+    public String engage();
 }

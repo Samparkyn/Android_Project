@@ -2,14 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="List of Animals"
-        android:textSize="20dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="10dp"/>
+
 
     <TextView
         android:id="@+id/your_animals"
@@ -19,6 +12,18 @@
         android:textSize="20dp"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/panda"
+        android:src="@drawable/panda"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Enclosures =>"
+        android:id="@+id/to_enclosures"/>
     
     <ListView
         android:id="@+id/buy_animal_list"

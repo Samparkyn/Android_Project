@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:text="species"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/your_animals"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hunger Level:"
+        android:id="@+id/hunger_placeholder"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:text="hunger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hunger_level"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-16dp"
+        />
+
+    <Button
+        android:text="Feed Animals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feed_button"
+        android:layout_marginLeft="230dp"/>
+
+</LinearLayout>
